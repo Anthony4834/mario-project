@@ -1,0 +1,27 @@
+
+enemies_textures.png
+size: 64, 32
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+goomba1
+  rotate: false
+  xy: 2, 14
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+goomba2
+  rotate: false
+  xy: 20, 14
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+goomba3
+  rotate: false
+  xy: 2, 2
+  size: 16, 10
+  orig: 16, 10
+  offset: 0, 0
+  index: -1

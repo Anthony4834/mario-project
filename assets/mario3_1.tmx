@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="147">
+ <tileset firstgid="1" source="NES - Super Mario Bros 3 - Stage Tiles.tsx"/>
+ <tileset firstgid="1534" source="tile_ref_1.tsx"/>
+ <layer id="1" name="bg" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENgDAMBEAjZQXq7AXrMRNTQMcApEuRARwpV5xkufrmpa97RF3UHfkZAGA135afAQAAZmc3AwBAd5SIs4x/uxnm9rTevs1V+p2dCQAAgHw/WjuAfw==
+  </data>
+ </layer>
+ <layer id="2" name="graphics" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztlztLw1AYhj+EOrm0TXIy2sVVKyIOXieF7v4P/4C1AS+LN1AU/Dfq7r26eBksCs7uvsUjJm16tNIkpn0feGhOkxzO8vT0iPQutYGkV0BINFSzIrfau2xn5pvMB+3EvISQZtZyIuvajVzwXg7d5aHVRn/++VrNSwiJnmN0ewJPuX8S0hXUz5KN58myJbICK9CzzO+XHPMnISRehm2REViEo3bSqyGkexlEX4VfNha214bx1e+uw34JiYoztHUOL+AlvILX8OYPzd3jnQftI3wK6fcZ1zXf+AXXrwbf7J//fxPSqyxncE5FYxXoactw1Wm/4U28s6XdhjtOc797GO/7zrUHuD40eMT9m5CW1Pstqk893e2YHo+r4LMTKmgjU/huWjsDZ+GcMvc7j/sLBkuK/RISxqJKt0u+35AhN/n1UBqn730i/W56Lbjf/Wb+wXoojVP2S2l6/QDE3e3t
+  </data>
+ </layer>
+ <objectgroup id="7" name="platforms">
+  <object id="37" x="320.526" y="111.973" width="62.7773" height="1.81088"/>
+  <object id="38" x="367.911" y="64.2864" width="48" height="1.20726"/>
+  <object id="39" x="528" y="111.973" width="144" height="1.20726"/>
+  <object id="58" x="208.333" y="95.3333" width="31" height="1"/>
+  <object id="59" x="288.333" y="63.3333" width="31.3333" height="0.666667"/>
+ </objectgroup>
+ <objectgroup id="8" name="qBricks">
+  <object id="43" x="304" y="65" width="16" height="15"/>
+  <object id="45" x="288" y="65" width="16" height="15">
+   <properties>
+    <property name="containsMushroom" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="44" x="208" y="97" width="16" height="15">
+   <properties>
+    <property name="containsMushroom" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="41" x="224" y="97" width="16" height="15"/>
+  <object id="135" x="560" y="64" width="16" height="15"/>
+  <object id="136" x="592" y="64" width="16" height="15"/>
+  <object id="137" x="624" y="64" width="16" height="15"/>
+ </objectgroup>
+ <objectgroup id="9" name="pipes">
+  <object id="51" x="464" y="112" width="32" height="47.6866"/>
+  <object id="53" x="464" y="112" width="32" height="48"/>
+ </objectgroup>
+ <objectgroup id="10" name="walls">
+  <object id="54" x="0" y="160" width="783" height="5.33333"/>
+  <object id="55" x="816" y="159.667" width="300" height="5.66667"/>
+  <object id="56" x="0" y="0.333333" width="2.33333" height="160"/>
+ </objectgroup>
+ <objectgroup id="11" name="coins">
+  <object id="61" x="320" y="96" width="16" height="14"/>
+  <object id="123" x="336.333" y="96" width="16" height="14"/>
+  <object id="124" x="351.667" y="96" width="16" height="14"/>
+ </objectgroup>
+ <layer id="13" name="qBricks" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1aENADAMA7A+0R2x/w8sGB2o1IEBW4rCQhMBAAAAdO08GW2sewMAb74WAAAAAACAPxVdVAG9
+  </data>
+ </layer>
+ <objectgroup id="14" name="enemies">
+  <object id="146" x="256" y="80" width="16" height="16">
+   <properties>
+    <property name="type" value="goomba"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="brick">
+  <object id="138" x="544" y="64" width="16" height="15"/>
+  <object id="139" x="576" y="64" width="16" height="15"/>
+  <object id="140" x="608" y="64" width="16" height="15"/>
+  <object id="141" x="640" y="64" width="16" height="15"/>
+ </objectgroup>
+</map>
